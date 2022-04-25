@@ -23,7 +23,7 @@ const EmptyPropertyList = () => (
   </Flex>
 )
 function Search({ properties }: Props) {
-  const [searchFilters, setSearchFilters] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
   const router = useRouter();
 
   return (
@@ -38,14 +38,14 @@ function Search({ properties }: Props) {
         fontSize="lg"
         alignItems="center"
         justifyContent="center"
-        onClick={() => setSearchFilters(prevFilters => !prevFilters)}
+        onClick={() => setShowFilters(prevFilters => !prevFilters)}
       >
         <Text>Search properties by filter</Text>
         <Icon paddingLeft="2" w="7" as={BsFilter} />
 
 
       </Flex>
-      {searchFilters && (
+      {showFilters && (
         <SearchFilters />
       )}
       <Text fontSize="2xl" p="4" fontWeight="bold">
