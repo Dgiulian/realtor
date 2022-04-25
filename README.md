@@ -12,10 +12,15 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built on top of NextJS with Typescript. Using the RapidApi service to query the Bayut API to get the best properties listed in the United Emirates.
 
-[Front](./front.png)
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Home Page
+
+
+![Front](./front.png)
 ## References
 
-This project is based on a youtube tutorial [https://github.com/adrianhajdin/projects_realestate](https://github.com/adrianhajdin/projects_realestate)
-It's built on top of NextJS with Typescript. Using the RapidApi service to query the Bayut API to get the best properties listed in the United Emirates.
+This project is based on a youtube tutorial [https://www.youtube.com/watch?v=y47gYvXchXM](https://www.youtube.com/watch?v=y47gYvXchXM) 
+The original source code can be found here: [https://github.com/adrianhajdin/projects_realestate](https://github.com/adrianhajdin/projects_realestate)
