@@ -26,10 +26,10 @@ const Navbar = (props: Props) => {
               <MenuItem icon={<BsSearch />}>Search</MenuItem>
             </Link>
             <Link href="/search?purpose=for-sale" passHref>
-              <MenuItem icon={<FcAbout />}>Home</MenuItem>
+              <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
             </Link>
             <Link href="/search?purpose=for-rent" passHref>
-              <MenuItem icon={<FiKey />}>Home</MenuItem>
+              <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
             </Link>
             
           </MenuList>
