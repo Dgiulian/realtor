@@ -16,8 +16,14 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "@assets/*": [
+        "assets/*"
+      ],
       "@utils/*": [
         "utils/*"
+      ],
+      "@components/*": [
+        "components/*"
       ]
     }
   },

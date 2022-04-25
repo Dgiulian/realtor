@@ -11,8 +11,7 @@
   "dependencies": {
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "typehole": "^1.7.0"
+    "react-dom": "18.0.0"
   },
   "devDependencies": {
     "@chakra-ui/react": "^1.8.8",
